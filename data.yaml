@@ -1,13 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
+path: C:\Users\Raxielh\Documents\GitHub\ModeloCancerPiel\data
+train: train/images
+val: valid/images
+test: test/images
 nc: 7
 names: ['akiec', 'bcc', 'bkl', 'df', 'mel', 'nv', 'vasc']
-
-roboflow:
-  workspace: reis-fetxi
-  project: ham10000-c7a4e
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/reis-fetxi/ham10000-c7a4e/dataset/1
