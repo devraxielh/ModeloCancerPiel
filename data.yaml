@@ -1,6 +1,0 @@
-path: C:\Users\Raxielh\Documents\GitHub\ModeloCancerPiel\data
-train: train/images
-val: valid/images
-test: test/images
-nc: 7
-names: ['akiec', 'bcc', 'bkl', 'df', 'mel', 'nv', 'vasc']
